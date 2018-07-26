@@ -8,6 +8,7 @@
 需要iptables配合ipset插件
 
 > ipset create chnip hash:net
+
 > ipset restore < /root/chnip.ipset
 
 然后就可以在iptables使用规则测试了.
